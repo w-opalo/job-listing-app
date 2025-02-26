@@ -8,6 +8,10 @@
     <title>Workopia</title>
 </head>
 <body>
-    {{$slot}}
+    <x-header />
+    <x-hero-image />
+    <main class="container mx-auto p-4 mt-4">
+        {{$slot}}
+    </main>
 </body>
 </html>
